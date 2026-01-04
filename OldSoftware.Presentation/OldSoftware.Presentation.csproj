@@ -14,4 +14,8 @@
       <None Include="wwwroot\css\site.css" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\src\OldSoftware.Application\OldSoftware.Application.csproj" />
+    </ItemGroup>
+
 </Project>
