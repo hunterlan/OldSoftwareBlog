@@ -1,9 +1,10 @@
+using Microsoft.Extensions.DependencyInjection;
 using OwnCMS.Application.Convertors;
 using OwnCMS.Application.Interfaces;
 using OwnCMS.Application.Readers;
 using OwnCMS.Application.Services;
 
-namespace OwnCMS.Presentation.Extensions;
+namespace OwnCMS.Application.Extensions;
 
 public static class ServiceCollectionExtensions
 {
@@ -17,6 +18,8 @@ public static class ServiceCollectionExtensions
         
         // Register readers
         services.AddScoped<IReader, FileReader>();
+
+        services.AddScoped<IArticleImportService, ArticleImportService>();
         
         return services;
     }
