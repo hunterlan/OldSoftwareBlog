@@ -1,7 +1,7 @@
 using Markdig;
-using OldSoftware.Application.Interfaces;
+using OwnCMS.Application.Interfaces;
 
-namespace OldSoftware.Application.Convertors;
+namespace OwnCMS.Application.Convertors;
 
 public class HtmlToMarkdownConverter : IMarkdownConverter
 {

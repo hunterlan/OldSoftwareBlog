@@ -1,6 +1,7 @@
-using OldSoftware.Application.Interfaces;
+using System.IO;
+using OwnCMS.Application.Interfaces;
 
-namespace OldSoftware.Application.Readers;
+namespace OwnCMS.Application.Readers;
 
 public class FileReader : IReader
 {

@@ -1,4 +1,4 @@
-namespace OldSoftware.Application.Interfaces;
+namespace OwnCMS.Application.Interfaces;
 
 public interface IMarkdownConverter
 {

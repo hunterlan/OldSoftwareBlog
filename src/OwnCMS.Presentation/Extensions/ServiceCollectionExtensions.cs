@@ -1,9 +1,9 @@
-using OldSoftware.Application.Convertors;
-using OldSoftware.Application.Interfaces;
-using OldSoftware.Application.Readers;
-using OldSoftware.Application.Services;
+using OwnCMS.Application.Convertors;
+using OwnCMS.Application.Interfaces;
+using OwnCMS.Application.Readers;
+using OwnCMS.Application.Services;
 
-namespace OldSoftware.Presentation.Extensions;
+namespace OwnCMS.Presentation.Extensions;
 
 public static class ServiceCollectionExtensions
 {
@@ -21,4 +21,3 @@ public static class ServiceCollectionExtensions
         return services;
     }
 }
-
