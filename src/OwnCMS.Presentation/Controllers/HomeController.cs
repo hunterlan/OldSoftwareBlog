@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace OldSoftware.Presentation.Controllers;
+namespace OwnCMS.Presentation.Controllers;
 
 public class HomeController : Controller
 {

@@ -1,6 +1,6 @@
-using OldSoftware.Application.Interfaces;
+using OwnCMS.Application.Interfaces;
 
-namespace OldSoftware.Application.Services;
+namespace OwnCMS.Application.Services;
 
 public class ArticleService(IMarkdownConverter markdownConverter, IReader fileReader) : IArticleService
 {
